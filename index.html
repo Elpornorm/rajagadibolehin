@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seberapa Rian nya kamu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glass-container">
+        <div class="macbook-control">
+            <div class="control-dot"></div>
+            <div class="control-dot"></div>
+            <div class="control-dot"></div>
+        </div>
+
+        <h1>Seberapa Rian nya kamu. . . .</h1>
+        <div class="subtitle">Tulis nama anda!</div>
+        
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Tulis namamu" required>
+        </div>
+        <button onclick="calculateResult()">hitung</button>
+
+        <div class="result" id="resultContainer">
+            <div class="meter-container">
+                <div class="meter">
+                    <span id="meterFill"></span>
+                </div>
+                <div class="meter-value" id="meterValue">0</div>
+            </div>
+            <div class="percentage" id="percentageText"></div>
+            <div class="message" id="messageText"></div>
+            <div class="image-container">
+                <img id="resultImage" src="" alt="Result image">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
